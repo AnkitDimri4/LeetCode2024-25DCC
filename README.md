@@ -65,11 +65,6 @@ class Solution:
 
 ```
 
-- **[Python Beats 100% | Java 12ms | C++ 151ms Beats 97.28% | DP | "Maximum Number of Points with Cost"](https://leetcode.com/problems/maximum-number-of-points-with-cost/solutions/5647965/python-beats-100-java-12ms-c-151ms-beats-97-28-dp-maximum-number-of-points-with-cost)**
-
----
-=======
-# LeetCode2024DCC
-Solutions and explanations for LeetCode's Daily Coding Challenges in 2024.
+- [🌟 0ms Beats 100% | O(n) | Efficient Solution for "Ugly Number II" | DP |C++ | | Java || Python](https://leetcode.com/problems/ugly-number-ii/solutions/5652924/0ms-beats-100-o-n-efficient-solution-for-ugly-number-ii-dp-c-java-python) 
 
 ---
