@@ -65,6 +65,8 @@ class Solution:
 **Explanation** Begin with one 'A'. First, use "Copy All" to copy the single 'A' to the clipboard. Then, perform "Paste" to double the 'A's to two. Finally, perform "Paste" again to triple the 'A's, achieving the target of three 'A's in three steps.
 
 ---
+![image](https://github.com/user-attachments/assets/b3fb7ff8-b954-48b6-a68a-f87b1c0686dd)
+
 - **[🌟 0ms Beats 100% | O(√n) | Efficient Solution for "2 Keys Keyboard" | C++ | Java | Python](https://leetcode.com/problems/2-keys-keyboard/solutions/5657968/0ms-beats-100-o-n-efficient-solution-for-2-keys-keyboard-c-java-python)**
 
 ---
