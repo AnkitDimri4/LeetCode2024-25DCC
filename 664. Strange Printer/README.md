@@ -43,9 +43,6 @@ public:
 
 ```python []
 class Solution:
-    def __init__(self):
-        self.memo = []
-
     def dp(self, s, i, j):
         if i > j:
             return 0
@@ -57,12 +54,10 @@ class Solution:
                 res = min(res, self.dp(s, i, k - 1) + self.dp(s, k + 1, j))
         self.memo[i][j] = res
         return res
-
-    def strangePrinter(self, s: str) -> int:
+    def strangePrinter(self, s):
         n = len(s)
         self.memo = [[-1] * n for _ in range(n)]
         return self.dp(s, 0, n - 1)
-
 
 ```
 
@@ -95,7 +90,7 @@ class Solution {
 ```
 
 ---
-- [🌟| O(n^3) | Efficient Solution for "Strange Printer" | DP | C++  | Python | Java]()
+- [🌟| O(n^3) | Efficient Solution for "Strange Printer" | DP | C++  | Python | Java](https://leetcode.com/problems/strange-printer/solutions/5667177/o-n-3-efficient-solution-for-strange-printer-dp-c-11ms-python-java)
 ---
 
 ---

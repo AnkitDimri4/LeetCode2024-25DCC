@@ -5,7 +5,6 @@
 using namespace std;
 class Solution {
     vector<vector<int>> memo;
-
     auto dp(string &s, int i, int j) -> int {
         if (i > j) return 0;
         if (memo[i][j] != -1) return memo[i][j];
@@ -27,12 +26,11 @@ int main() {
     Solution sol;
     // Test case 1
     string s1 = "aaabbb";
-    cout << "Input: " << s1 << endl;
-    cout << "Output: " << sol.strangePrinter(s1) << endl;  // Output: 2
+    cout << "Input: " << s1 << "\n";
+    cout << "Output: " << sol.strangePrinter(s1) << "\n";  // Output: 2
     // Test case 2
     string s2 = "aba";
-    cout << "Input: " << s2 << endl;
-    cout << "Output: " << sol.strangePrinter(s2) << endl;  // Output: 2
-
+    cout << "Input: " << s2 << "\n";
+    cout << "Output: " << sol.strangePrinter(s2) << "\n";  // Output: 2
     return 0;
 }

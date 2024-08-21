@@ -1,7 +1,4 @@
 class Solution:
-    def __init__(self):
-        self.memo = []
-
     def dp(self, s, i, j):
         if i > j:
             return 0
@@ -18,3 +15,16 @@ class Solution:
         n = len(s)
         self.memo = [[-1] * n for _ in range(n)]
         return self.dp(s, 0, n - 1)
+
+# Test cases
+sol = Solution()
+
+# Test case 1
+s1 = "aaabbb"
+print(f"Input: {s1}")
+print(f"Output: {sol.strangePrinter(s1)}")  # Output: 2
+
+# Test case 2
+s2 = "aba"
+print(f"Input: {s2}")
+print(f"Output: {sol.strangePrinter(s2)}")  # Output: 2

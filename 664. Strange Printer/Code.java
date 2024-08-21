@@ -1,5 +1,6 @@
 class Solution {
     private int[][] memo;
+
     private int dp(String s, int i, int j) {
         if (i > j) return 0;
         if (memo[i][j] != -1) return memo[i][j];
@@ -11,6 +12,7 @@ class Solution {
         }
         return memo[i][j] = res;
     }
+
     public int strangePrinter(String s) {
         int n = s.length();
         memo = new int[n][n];
@@ -20,5 +22,19 @@ class Solution {
             }
         }
         return dp(s, 0, n - 1);
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+
+        // Test case 1
+        String s1 = "aaabbb";
+        System.out.println("Input: " + s1);
+        System.out.println("Output: " + sol.strangePrinter(s1));  // Output: 2
+
+        // Test case 2
+        String s2 = "aba";
+        System.out.println("Input: " + s2);
+        System.out.println("Output: " + sol.strangePrinter(s2));  // Output: 2
     }
 }
