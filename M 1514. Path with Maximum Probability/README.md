@@ -105,6 +105,7 @@ class Solution:
 ```
 ![image.png](https://assets.leetcode.com/users/images/62eef349-b621-439e-9bfe-d3b7de4e2233_1724729024.6927826.png)
 
+
 ---
 - [🌟 109ms | Dijkstra | C++ Solution for Path with Maximum Probability | Beats 96.70% |](https://leetcode.com/problems/path-with-maximum-probability/solutions/5696258/109ms-c-solution-for-path-with-maximum-probability-beats-96-70)
 ---
