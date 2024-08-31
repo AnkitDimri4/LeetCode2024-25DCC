@@ -88,11 +88,9 @@ class Solution:
             prob = succProb[i]
             graph[u].append((v, prob))
             graph[v].append((u, prob))
-        
         max_heap = [(-1.0, start)]
         max_prob = [0.0] * n
         max_prob[start] = 1.0
-        
         while max_heap:
             current_prob, node = heapq.heappop(max_heap)
             current_prob = -current_prob
@@ -103,11 +101,11 @@ class Solution:
                 if new_prob > max_prob[neighbor]:
                     max_prob[neighbor] = new_prob
                     heapq.heappush(max_heap, (-new_prob, neighbor))
-        
         return 0.0
 ```
 ![image.png](https://assets.leetcode.com/users/images/62eef349-b621-439e-9bfe-d3b7de4e2233_1724729024.6927826.png)
 
 ---
 - [🌟 109ms | Dijkstra | C++ Solution for Path with Maximum Probability | Beats 96.70% |](https://leetcode.com/problems/path-with-maximum-probability/solutions/5696258/109ms-c-solution-for-path-with-maximum-probability-beats-96-70)
+---
 ---
