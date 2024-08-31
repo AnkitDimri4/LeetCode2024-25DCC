@@ -70,5 +70,4 @@ class Solution:
 - **[🌟 0ms Beats 100% | O(√n) | Efficient Solution for "2 Keys Keyboard" | C++ | Java | Python](https://leetcode.com/problems/2-keys-keyboard/solutions/5657968/0ms-beats-100-o-n-efficient-solution-for-2-keys-keyboard-c-java-python)**
 
 ---
-
 ---
