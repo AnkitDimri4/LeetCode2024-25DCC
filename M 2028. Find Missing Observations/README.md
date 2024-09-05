@@ -55,7 +55,7 @@ class Solution:
         return res
 ```
 
-- ![image.png](https://assets.leetcode.com/users/images/4d5f8ebb-de30-4573-a05c-9f98d616996d_1725507019.5369923.png)
+![image.png](https://assets.leetcode.com/users/images/d628ab29-e333-4ec6-9cb0-85d29962178a_1725508036.7237873.png)
 
 - [Easy Solution || 86ms Beats 87.50% | O(m+n) | C++ Py3 Java |](https://leetcode.com/problems/find-missing-observations/description/)
 ---
