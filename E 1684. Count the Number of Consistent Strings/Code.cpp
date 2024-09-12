@@ -1,24 +1,17 @@
 #include <iostream>
 #include <vector>
-#include <unordered_set>
+#include <algorithm>
 
 using namespace std;
 
 class Solution {
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
-        unordered_set<char> allowedSet(allowed.begin(), allowed.end());
-        int count = 0;
-        for (const string& word : words) {
-            bool isConsistent = true;
-            for (char c : word) {
-                if (allowedSet.find(c) == allowedSet.end()) {
-                    isConsistent = false;
-                    break;
-                }
-            }
-            if (isConsistent) count++;
-        }
+        bool allowedSet[26] = {};
+        for (char c : allowed) allowedSet[c - 'a'] = true;  
+        int count{0};
+        for (const auto& word : words) 
+            count += all_of(word.begin(), word.end(), [&](char c){ return allowedSet[c - 'a']; });
         return count;
     }
 };
@@ -27,6 +20,6 @@ int main() {
     Solution solution;
     string allowed = "ab";
     vector<string> words = {"ad", "bd", "aaab", "baa", "badab"};
-    cout << solution.countConsistentStrings(allowed, words) << endl; // Output: 2
+    cout << "Output: " << solution.countConsistentStrings(allowed, words) << endl; // Output: 2
     return 0;
 }

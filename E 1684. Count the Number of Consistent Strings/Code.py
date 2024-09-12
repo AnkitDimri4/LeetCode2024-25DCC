@@ -9,4 +9,4 @@ class Solution:
 solution = Solution()
 allowed = "ab"
 words = ["ad", "bd", "aaab", "baa", "badab"]
-print(solution.countConsistentStrings(allowed, words)) # Output: 2
+print("Output:", solution.countConsistentStrings(allowed, words)) # Output: 2
