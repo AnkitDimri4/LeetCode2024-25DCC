@@ -4,7 +4,7 @@
 To solve the problem efficiently, we leverage **KMP (Knuth-Morris-Pratt)** algorithm's prefix function. By constructing a modified string, which consists of the original string and its reverse, we can find the longest prefix of the original string that is also a suffix. This information allows us to determine the shortest palindrome by appending the minimum required characters in front of the original string.
 
 # Approach
-First, reverse the given string and concatenate it with the original string using a delimiter (e.g., $$"#"$$) to avoid overlap between the two. Next, compute the **KMP prefix array** for the concatenated string to find the longest palindromic prefix. The last value of this array tells us the length of the longest prefix that matches a suffix in the original string. Using this, we append the necessary characters from the reversed string to the front of the original string, forming the shortest palindrome.
+First, reverse the given string and concatenate it with the original string using a delimiter (e.g., **#**) to avoid overlap between the two. Next, compute the **KMP prefix array** for the concatenated string to find the longest palindromic prefix. The last value of this array tells us the length of the longest prefix that matches a suffix in the original string. Using this, we append the necessary characters from the reversed string to the front of the original string, forming the shortest palindrome.
 
 # Complexity
 - **Time Complexity** $$O(n)$$ where $$n$$ is the length of the string. Both computing the reverse and building the KMP table take linear time.
@@ -64,10 +64,8 @@ class Solution:
 
 ---
 
-- 
-![image.png](https://assets.leetcode.com/users/images/70cee062-2dc8-4694-93fd-e0e318720e45_1726803102.7627122.png)
+- ![image.png](https://assets.leetcode.com/users/images/70cee062-2dc8-4694-93fd-e0e318720e45_1726803102.7627122.png)
 
-- ![Designer.png](https://assets.leetcode.com/users/images/5395952a-4267-4b87-b81f-f28780669704_1726803172.327018.png)
 - [O(n) | Easy Solution || KMP (Knuth-Morris-Pratt) | C++ 0ms Beats 100.00% | Java Py3 |](https://leetcode.com/problems/shortest-palindrome/description/?envType=daily-question&envId=2024-09-20)
 
 ---
