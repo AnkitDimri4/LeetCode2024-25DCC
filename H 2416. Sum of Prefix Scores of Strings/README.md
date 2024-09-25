@@ -100,7 +100,7 @@ class Solution:
 ```
 ---
 - ![image.png](https://assets.leetcode.com/users/images/33599343-e7e4-47b0-8436-23a4d4888621_1727233098.2279394.png)
-- ![💡 O(n⋅m) | Easy Solution | C++ 462ms Beats 87.78% | Java Py3](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/description/)
+- [💡 O(n⋅m) | Easy Solution | C++ 462ms Beats 87.78% | Java Py3](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/description/)
 
 ---
 
