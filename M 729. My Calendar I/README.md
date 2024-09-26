@@ -7,8 +7,11 @@ To avoid **double booking** in the calendar, we must check for overlaps between 
 The solution keeps track of booked events in a list. For each booking request, iterate through the list of booked events and check if there is an overlap. If the new event's start time is less than the existing event's end time, and its end time is greater than the existing event's start time, the events overlap. If no overlap is found, we can add the event to the calendar.
 
 # Complexity
-- **Time Complexity** $$O(n)$$ for each booking, where $$n$$ is the number of bookings made so far. Each booking involves checking for overlap with all previously booked events.
+- **Time Complexity** $$O(n)$$ for each booking, where $$n$$ is the number of bookings made so far. Each booking involves checking for overlap with all previously booked events. **[Py3,cpp]**
 - **Space Complexity** $$O(n)$$ since we store all booked events in a list.
+#### ```Java```
+> - **Time Complexity** $$O(\log n)$$ for each booking due to the **TreeMap** operations (insertion and key lookups).
+> - **Space Complexity** $$O(n)$$ as we store all booked events in the **TreeMap**.
 ---
 
 # Code
@@ -27,20 +30,20 @@ auto io_opt = [] { ios::sync_with_stdio(false); cin.tie(nullptr); return 0; }();
 ```
 ```java []
 class MyCalendar {
-    private List<int[]> bookings;
+    private TreeMap<Integer, Integer> bookings;
     public MyCalendar() {
-        bookings = new ArrayList<>();
+        bookings = new TreeMap<>();
     }
     public boolean book(int start, int end) {
-        for (int[] b : bookings) {
-            if (start < b[1] && end > b[0]) return false;
-        }
-        bookings.add(new int[] {start, end});
+        Integer floorKey = bookings.floorKey(start);
+        if (floorKey != null && bookings.get(floorKey) > start) return false;
+        Integer ceilingKey = bookings.ceilingKey(start);
+        if (ceilingKey != null && ceilingKey < end) return false;
+        bookings.put(start, end);
         return true;
     }
 }
 ```
-
 ```python3 []
 class MyCalendar:
     def __init__(self):
