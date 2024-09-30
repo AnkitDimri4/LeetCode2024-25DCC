@@ -7,7 +7,7 @@ To manage string counts efficiently, we implement an **AllOne** data structure t
 We utilize a **hash map** to store string counts and a **frequency map** to link counts to their respective strings. Each string's count is incremented or decremented as needed, while the frequency map make sures we can easily access keys with the current minimum and maximum counts.
 
 > # Complexity
-- **Time Complexity** $$O(1)$$ on average for all operations ($$inc$$, $$dec$$, $$getMaxKey$$, $$getMinKey$$).
+- **Time Complexity** The average time complexity for all operations ($$inc$$, $$dec$$, $$getMaxKey$$, $$getMinKey$$) is $$O(1)$$ in practice due to the efficient use of hash maps. However, note that operations on $$std::map$$ do have a complexity of $$O(log n)$$. The use of $$max(self.freq)$$ and $$min(self.freq)$$ can run in $$O(n)$$, so maintaining pointers for max/min would allow all operations to consistently remain **O(1)**. Thus, the combined use of hash maps provides effective performance.
 - **Space Complexity** $$O(n)$$, where $$n$$ is the number of unique strings stored.
 
 ---
@@ -142,5 +142,9 @@ class AllOne:
 ---
 > ![image.png](https://assets.leetcode.com/users/images/0dd81f48-084b-470b-9032-53ce13f75da0_1727577170.9954724.png)
 > [O(1) | Easy Solution | C++ 72ms Beats 96.88% | Java Python3](https://leetcode.com/problems/all-oone-data-structure/description/?envType=daily-question&envId=2024-09-29)
+
+---
+> ### Additional Note
+> **Note**: While the theoretical complexity provides a framework for understanding performance, real-world implications can vary based on implementation details. The practical performance for managing frequencies can often approach **O(√n)**, which should be considered in dynamic scenarios.
 
 ---
