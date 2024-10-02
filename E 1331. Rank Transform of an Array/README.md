@@ -70,13 +70,13 @@ class Solution {
 }
 ```
 ---
-> **CPP**
-> ![C++](https://assets.leetcode.com/users/images/74acd5e8-6004-4317-9110-6be196920611_1727840258.2237668.png)
->  **Python3**
->  ![Python](https://assets.leetcode.com/users/images/fa3a4015-6d08-46d1-b73c-be39a4233dc8_1727840326.8068683.png)
->-  **Java**
-> ![Java](https://assets.leetcode.com/users/images/c24e6bf4-3fea-4ea2-9942-a554d96ef3e1_1727840346.0735521.png)
-> ![O(nlogn)| Easy Solution | C++ 25ms Beats 99.84% | Py3 218ms Beats 99.44% | Java 5ms Beats 100.00% |](https://leetcode.com/problems/rank-transform-of-an-array/description/)
+> - **CPP**
+> -  ![C++](https://assets.leetcode.com/users/images/74acd5e8-6004-4317-9110-6be196920611_1727840258.2237668.png)
+> - **Python3**
+> -  ![Python](https://assets.leetcode.com/users/images/fa3a4015-6d08-46d1-b73c-be39a4233dc8_1727840326.8068683.png)
+> - **Java**
+> -  ![Java](https://assets.leetcode.com/users/images/c24e6bf4-3fea-4ea2-9942-a554d96ef3e1_1727840346.0735521.png)
+- [O(nlogn)| Easy Solution | C++ 25ms Beats 99.84% | Py3 218ms Beats 99.44% | Java 5ms Beats 100.00% |](https://leetcode.com/problems/rank-transform-of-an-array/description/)
 
 ---
 > ### Additional Note
