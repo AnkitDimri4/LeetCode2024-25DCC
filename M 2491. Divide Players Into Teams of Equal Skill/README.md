@@ -60,10 +60,12 @@ class Solution:
 ```
 
 > **CPP** 
-> ![image.png](https://assets.leetcode.com/users/images/3ae9b1c9-9a3e-487d-b612-b19ec41eaf06_1728012434.9581645.png)
+> > ![image.png](https://assets.leetcode.com/users/images/3ae9b1c9-9a3e-487d-b612-b19ec41eaf06_1728012434.9581645.png)
+
 > **Java**
-> ![image.png](https://assets.leetcode.com/users/images/6bdb7fbf-a66b-4bd2-9834-e378d61d4d18_1728012473.7350414.png)
-![💡 | O(n) | C++ 33ms Beats 99.80% | Java 12ms Beats 92.19% | Python3 369ms Beats 97.34% |](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question&envId=2024-10-04)
+> > ![image.png](https://assets.leetcode.com/users/images/6bdb7fbf-a66b-4bd2-9834-e378d61d4d18_1728012473.7350414.png)
+
+> [💡 | O(n) | C++ 33ms Beats 99.80% | Java 12ms Beats 92.19% | Python3 369ms Beats 97.34% |](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/?envType=daily-question&envId=2024-10-04)
 
 ---
 
