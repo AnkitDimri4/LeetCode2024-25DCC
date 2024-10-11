@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Solution {
     public int minAddToMakeValid(String s) {
         int o = 0, c = 0;
@@ -14,7 +13,6 @@ class Solution {
         }
         return o + c;
     }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         Scanner sc = new Scanner(System.in);
