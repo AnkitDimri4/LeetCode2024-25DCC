@@ -2,7 +2,8 @@
 ---
 
 > # Intuition
-The problem requires evaluating a boolean expression represented in a structured format. The expressions can be nested and utilize operators like NOT ($$!$$), AND ($$&$$), and OR ($$|$$). The solution involves utilizing a **stack** to manage the evaluation of sub-expressions effectively.
+The problem requires evaluating a boolean expression represented in a structured format. The expressions can be nested and utilize operators like NOT ($$!$$), AND ($$&$$), ![image](https://github.com/user-attachments/assets/386b2009-51a2-47cb-9673-ff38c47b1c04)
+ and OR ($$|$$). The solution involves utilizing a **stack** to manage the evaluation of sub-expressions effectively.
 
 > # Approach
 We traverse the expression character by character, using a stack to handle the operators and their operands. When encountering a closing parenthesis $$)$$, we pop from the stack until we reach the matching opening parenthesis $$($$, evaluate the contained sub-expressions based on the operator, and push the result back onto the stack. This continues until the entire expression is evaluated, and the final result is determined by the value remaining in the stack.
