@@ -94,7 +94,9 @@ class Solution {
 
 [💡 | O(n) | C++ 0ms Beats 100.00% || Py3 11ms Beats 100.00% | Java 7ms || Easy Solution 🧠||](https://leetcode.com/problems/parsing-a-boolean-expression/description/?envType=daily-question&envId=2024-10-20)
 
+
 ---
+
 
 > ### Additional Note
 > **Note**: This approach effectively handles nested boolean expressions using stacks, allowing for efficient evaluation and handling of complex structures.
