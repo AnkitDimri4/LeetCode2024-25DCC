@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-
 class Solution {
     int idx = 0;
-    
     public boolean parseBoolExpr(String e) {
         char op = e.charAt(idx++);
         if (op == 't') return true; 
@@ -17,7 +15,6 @@ class Solution {
         idx++;
         return op == '!' ? !vals.get(0) : op == '&' ? vals.stream().allMatch(v -> v) : vals.stream().anyMatch(v -> v);
     }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.parseBoolExpr("&(t,t,t)"));  // Output: true
