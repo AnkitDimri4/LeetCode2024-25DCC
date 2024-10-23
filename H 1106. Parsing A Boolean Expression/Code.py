@@ -15,8 +15,6 @@ class Solution:
                 if op == '!': stk[-1] = 'f' if t else 't'
             else: stk.append(ch)
         return stk[-1] == 't'
-
-# Testing the function
 solution = Solution()
 print(solution.parseBoolExpr("&(t,t,t)"))  # Output: True
 print(solution.parseBoolExpr("&(|(f))"))    # Output: False
