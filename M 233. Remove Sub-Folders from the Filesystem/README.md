@@ -60,7 +60,7 @@ class Solution {
 > ![image.png](https://assets.leetcode.com/users/images/3c2777fb-90a7-4789-b5ad-68149ff4c854_1729828210.081669.png)
 > **Python3**
 > ![image.png](https://assets.leetcode.com/users/images/34e5704e-2b5f-48b2-9038-c6bd0a150002_1729828166.235278.png)
-> ![💡 | O(n log n + n * m) | C++ 29ms Beats 100.00% | Py3 19 ms Beats 98.28% | Java 42ms |](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/description/?envType=daily-question&envId=2024-10-25)
+> [💡 | O(n log n + n * m) | C++ 29ms Beats 100.00% | Py3 19 ms Beats 98.28% | Java 42ms |](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/description/?envType=daily-question&envId=2024-10-25)
 
 > ### Additional Note
 > This solution leverages sorting to manage sub-folder hierarchy efficiently. Sorting helps line up potential sub-folders after their parent folders, enabling quick comparison and skipping with minimal overhead.
