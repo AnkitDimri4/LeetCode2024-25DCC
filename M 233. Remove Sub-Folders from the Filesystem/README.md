@@ -13,7 +13,6 @@ First, we sort the list of folders in $$O(n log n)$$ time. After sorting, we ite
 - **Space Complexity** $$O(n)$$ for storing the result.
 
 > # Code
-
 ```cpp []
 class Solution {
 public:
