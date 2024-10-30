@@ -2,7 +2,6 @@
 #include <string>
 #include <algorithm>
 using namespace std;
-
 class Solution {
 public:
     vector<string> removeSubfolders(vector<string>& folder) {
@@ -16,8 +15,6 @@ public:
         return result;
     }
 };
-
-// Example usage
 #include <iostream>
 int main() {
     Solution solution;
@@ -25,11 +22,9 @@ int main() {
     vector<string> result1 = solution.removeSubfolders(folder1);
     for (const auto& dir : result1) cout << dir << " ";
     cout << "\n";  // Output: ["/a", "/c/d", "/c/f"]
-
     vector<string> folder2 = {"/a", "/a/b/c", "/a/b/d"};
     vector<string> result2 = solution.removeSubfolders(folder2);
     for (const auto& dir : result2) cout << dir << " ";
     cout << "\n";  // Output: ["/a"]
-
     return 0;
 }
