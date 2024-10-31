@@ -12,14 +12,11 @@ class Solution {
         return result;
     }
 }
-
-
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
         String[] folder1 = {"/a", "/a/b", "/c/d", "/c/d/e", "/c/f"};
         System.out.println(solution.removeSubfolders(folder1)); // Output: ["/a", "/c/d", "/c/f"]
-
         String[] folder2 = {"/a", "/a/b/c", "/a/b/d"};
         System.out.println(solution.removeSubfolders(folder2)); // Output: ["/a"]
     }
