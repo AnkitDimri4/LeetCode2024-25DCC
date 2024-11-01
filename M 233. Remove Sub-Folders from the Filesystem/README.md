@@ -11,7 +11,6 @@ First, we sort the list of folders in $$O(n log n)$$ time. After sorting, we ite
 > # Complexity
 - **Time Complexity** $$O(n log n + n * m)$$, where $$n$$ is the number of folders, and $$m$$ is the average folder name length.
 - **Space Complexity** $$O(n)$$ for storing the result.
-
 > # Code
 ```cpp []
 class Solution {
