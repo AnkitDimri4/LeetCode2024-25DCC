@@ -36,7 +36,6 @@ class Solution:
                 result.append(dir)
         return result
 ```
- 
 ```java []
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
