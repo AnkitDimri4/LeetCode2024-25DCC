@@ -1,5 +1,6 @@
 
 #
+
 ---
 > # Intuition
 To remove sub-folders efficiently, we sort the folders lexicographically to make sure that sub-folders appear right after their parent folders. By comparing each folder with the last added folder in the result, we can identify and skip sub-folders without extra nested loops.
