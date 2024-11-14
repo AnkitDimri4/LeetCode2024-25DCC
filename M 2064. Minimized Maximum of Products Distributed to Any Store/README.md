@@ -73,7 +73,7 @@ class Solution:
 >  ![image.png](https://assets.leetcode.com/users/images/284d75bf-dbec-4c54-b063-aa5527bbef83_1731545373.041634.png)
 > - **Java** 
 ![image.png](https://assets.leetcode.com/users/images/818c1db6-1a36-40c7-9260-96fe8a879648_1731545415.4559708.png)
-[💡O(m*log(max(quantities)))| [Py3, C++] - 306ms,15ms ✅Beats100.00% |Java 28ms|Efficient Solution🧠|](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/solutions/6042508/omlogmaxquantities-py3-c-306ms15ms-beats10000-java-28msefficient-solution)
+- [💡O(m*log(max(quantities)))| [Py3, C++] - 306ms,15ms ✅Beats100.00% |Java 28ms|Efficient Solution🧠|](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/solutions/6042508/omlogmaxquantities-py3-c-306ms15ms-beats10000-java-28msefficient-solution)
 
 ---
 > ### **Conclusion** 📝
