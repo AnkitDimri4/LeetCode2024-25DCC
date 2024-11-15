@@ -63,6 +63,6 @@ class Solution:
 > ![image.png](https://assets.leetcode.com/users/images/f67f7ca3-67b9-4970-b06d-49150a0d8cf7_1731631065.9470758.png)
 > - **Python3**
 > ![image.png](https://assets.leetcode.com/users/images/134d4d05-1257-45e4-a41d-ab05b21b93c6_1731631057.960208.png)
-![💡 | O(n) | C++ 0ms, Java 1ms, Py3 6ms - Beats 100.00% | Two Pointers + Sliding Window 🧠|](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/solutions/6046078/o-n-c-0ms-java-1ms-py3-6ms-beats-100-00-two-pointers-sliding-window)
+[💡 | O(n) | C++ 0ms, Java 1ms, Py3 6ms - Beats 100.00% | Two Pointers + Sliding Window 🧠|](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/solutions/6046078/o-n-c-0ms-java-1ms-py3-6ms-beats-100-00-two-pointers-sliding-window)
 
 ---
