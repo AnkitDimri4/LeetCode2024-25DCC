@@ -34,8 +34,9 @@ auto io_opt = [] { ios::sync_with_stdio(false); cin.tie(nullptr); return 0; }();
 ```
 ---
 > ### Images
-> - **C++**
+> **C++**
 > ![image.png](https://assets.leetcode.com/users/images/cc0e0843-4498-401b-82ac-080faa87ec78_1731722404.234777.png)
+
 [💡 | O(n) | C++ 0ms Beats 100.00% | Sliding Window / Counting Approach 🧠 |](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/solutions/6049390/o-n-c-0ms-beats-100-00-sliding-window-counting-approach)
 
 ---
