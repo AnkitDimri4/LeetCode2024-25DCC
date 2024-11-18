@@ -54,6 +54,7 @@ public:
 ---
 > - **C++**
 > ![image.png](https://assets.leetcode.com/users/images/6f527caa-5ffe-4334-bab9-83574abc1626_1731806692.562703.png)
-[💡 | O(n) | C++ 4ms Beats 99.83% | Deque + Prefix Sum🧠|](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/solutions/6053009/o-n-c-4ms-beats-99-83-deque-prefix-sum)
+
+> [💡 | O(n) | C++ 4ms Beats 99.83% | Deque + Prefix Sum🧠|](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/solutions/6053009/o-n-c-4ms-beats-99-83-deque-prefix-sum)
 
 ---
