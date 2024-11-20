@@ -13,7 +13,6 @@ We use a **prefix sum array** to track cumulative sums up to each index, allowin
 ---
 
 > ### Code 💻
-
 ```cpp []
 const int MAX_SIZE = 1e5 + 1;
 long long psum[MAX_SIZE];
