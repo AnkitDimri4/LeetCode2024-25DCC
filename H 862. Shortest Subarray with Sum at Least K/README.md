@@ -11,6 +11,7 @@ We use a **prefix sum array** to track cumulative sums up to each index, allowin
 - **Space Complexity** $$O(n)$$ for storing the prefix sums and indices.
 
 ---
+
 > ### Code 💻
 ```cpp []
 const int MAX_SIZE = 1e5 + 1;
