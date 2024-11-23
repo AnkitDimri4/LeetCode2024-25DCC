@@ -37,7 +37,6 @@ public:
     }
 };
 ```
-
 ---
 ---
 > ### Explanation of the Code
