@@ -106,7 +106,6 @@ class Solution:
         return dist[r - 1][c - 1]
 ```
 ---
-
 > ### Explanation of the Code
 - **Initialization**
   - A **deque** **dq** is initialized with the starting point $$(0, 0)$$ to perform a 0-1 BFS.
