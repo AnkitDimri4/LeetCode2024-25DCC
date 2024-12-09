@@ -4,6 +4,7 @@
 The problem asks for the minimum number of obstacles to remove to create a path from the top-left corner to the bottom-right corner in a grid. This can be modeled as a **shortest path problem** where moving through obstacles has a weight of 1, and moving through empty cells has a weight of 0. We use a **0-1 Breadth-First Search (BFS)** approach to efficiently solve this problem.
 
 ---
+
 ## Approach 🎯
 **Algorithm Choice** Use **0-1 BFS** with a deque to optimize traversal. In a 0-1 BFS, nodes with weight 0 are added to the front of the deque, and nodes with weight 1 are added to the back. This makes sure that nodes with lower weights are processed first, effectively simulating Dijkstra's algorithm with two-priority levels.
 **Initialization** Create a **dist** array to store the minimum obstacles removed to reach each cell. Initialize the starting point with $$dist[0][0] = 0$$ and all other cells to infinity.
