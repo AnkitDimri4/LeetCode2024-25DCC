@@ -22,6 +22,7 @@ The problem asks for the minimum number of obstacles to remove to create a path 
 - **Space Complexity** $$O(m * n)$$  The space is used for the **dist** array and deque, both proportional to the grid size.
 ---
 
+
 ## Code 💻
 
 ```cpp []
