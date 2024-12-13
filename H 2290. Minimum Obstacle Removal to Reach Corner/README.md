@@ -13,7 +13,6 @@ The problem asks for the minimum number of obstacles to remove to create a path 
    - If the new distance is smaller than the recorded distance for $$(nx, ny)$$, update the distance and add the cell to the deque. Push to the front if it's an empty cell ($$grid[nx][ny] == 0$$), or to the back if it's an obstacle ($$grid[nx][ny] == 1$$).
    
 **Termination** The loop ends when all reachable cells are processed. Return the value at the bottom-right corner $$dist[m - 1][n - 1]$$.
-
 ---
 
 ### Complexity 📊
