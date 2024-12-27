@@ -15,7 +15,6 @@ The problem asks for the minimum number of obstacles to remove to create a path 
 **Termination** The loop ends when all reachable cells are processed. Return the value at the bottom-right corner $$dist[m - 1][n - 1]$$.
 ---
 
-
 ### Complexity 📊
 - **Time Complexity** $$O(m * n)$$ Each cell is processed at most once, and each edge (neighbor) is relaxed once, resulting in linear time complexity relative to the number of cells.
 - **Space Complexity** $$O(m * n)$$  The space is used for the **dist** array and deque, both proportional to the grid size.
