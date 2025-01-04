@@ -18,6 +18,7 @@ The problem asks for the minimum number of obstacles to remove to create a path 
 - **Time Complexity** $$O(m * n)$$ Each cell is processed at most once, and each edge (neighbor) is relaxed once, resulting in linear time complexity relative to the number of cells.
 - **Space Complexity** $$O(m * n)$$  The space is used for the **dist** array and deque, both proportional to the grid size.
 ---
+
 ## Code 💻
 
 ```cpp []
