@@ -22,7 +22,6 @@ The problem asks for the minimum number of obstacles to remove to create a path 
 ## Code 💻
 
 
-
 ```cpp []
 class Solution {
 public:
