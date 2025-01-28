@@ -20,6 +20,7 @@ The challenge is to handle two cases -
 
 ---
 
+
 ### **Approach**  🎯
 
 1. **Graph Representation**  Treat the **favorite** array as a directed graph.  
