@@ -10,6 +10,7 @@ The problem requires determining the maximum number of employees who can be invi
 ### **Intuition** 🧩
 
 
+
 This can be viewed as a **directed graph** problem -
 - Each employee is a **node**.  
 - Each "favorite" relationship is a **directed edge**.  
