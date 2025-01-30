@@ -12,6 +12,7 @@ A tree is an acyclic connected graph. Adding an extra edge to a tree creates exa
 
 ### **Approach** 🎯
 
+
 1. **Union-Find Initialization**
     Initialize the $$parent$$ array where each node is its own parent.
    - Initialize the $$rank$$ array to keep track of the tree depth for union by rank optimization.
