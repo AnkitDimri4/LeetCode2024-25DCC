@@ -6,6 +6,7 @@ The problem requires us to divide the nodes of a graph into groups such that adj
 - **Summing up the depths** of all components to get the **maximum number of groups**.
   
 ---
+
 ### 🔹 **Approach**   🎯
 
 - **Graph Construction**  
@@ -95,6 +96,7 @@ private:
 
 ---
 ---
+
 
 
 
