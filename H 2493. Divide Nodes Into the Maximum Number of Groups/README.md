@@ -10,7 +10,8 @@ The problem requires us to divide the nodes of a graph into groups such that adj
 
 ### 🔹 **Approach**   🎯
 
-- **Graph Construction**  
+- **Graph Construction**
+- 
    - Build an adjacency list from the given $$edges$$.  
 - **Check Bipartiteness using DFS**  
    - If a node is unvisited, start a DFS to assign colors ($$0$$ or $$1$$).  
@@ -97,6 +98,7 @@ private:
 
 ---
 ---
+
 
 
 
