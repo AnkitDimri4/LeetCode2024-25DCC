@@ -1,4 +1,5 @@
 ---
+
 ### 🔹 **Intuition**   🧩
 The problem requires us to divide the nodes of a graph into groups such that adjacent nodes belong to consecutive groups. This hints at a **bipartite graph** structure where nodes must be assigned alternating colors (0 and 1). If the graph contains **odd-length cycles**, it is impossible to divide the nodes as required.   
 - **Checking if the graph is bipartite** using **DFS** (if not, return $$-1$$).  
@@ -96,6 +97,7 @@ private:
 
 ---
 ---
+
 
 
 
