@@ -11,7 +11,6 @@ The problem requires us to divide the nodes of a graph into groups such that adj
 ---
 
 
-
 ### 🔹 **Approach**   🎯
 
 
@@ -103,6 +102,7 @@ private:
 
 ---
 ---
+
 
 
 
