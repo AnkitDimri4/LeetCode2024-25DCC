@@ -5,11 +5,8 @@ The problem requires us to divide the nodes of a graph into groups such that adj
 - **Checking if the graph is bipartite** using **DFS** (if not, return $$-1$$).  
 - **Finding the largest depth** in each connected component using **BFS**.  
 - **Summing up the depths** of all components to get the **maximum number of groups**.
-
 ---
-
 ### 🔹 **Approach**   🎯
-
 
 - **Graph Construction**
 - 
@@ -99,6 +96,7 @@ private:
 
 ---
 ---
+
 
 
 
