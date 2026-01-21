@@ -122,3 +122,9 @@ public:
 - Efficient and elegant solution within constraints
 
 ---
+
+> **C++**
+- <img width="642" height="530" alt="image" src="https://github.com/user-attachments/assets/91227592-99f6-41d1-aad8-3dfffe923e6e" />
+
+
+---
