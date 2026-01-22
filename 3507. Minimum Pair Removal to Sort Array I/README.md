@@ -65,6 +65,8 @@ Define a helper function `isNonDec`:
   Each operation scans the array to find the minimum pair (`O(n)`) and checks if the array is sorted (`O(n)`).
   Worst-case total: `O(n²)`, where `n` is the size of the array (acceptable since `n ≤ 50`).
 
+- <img width="545" height="406" alt="image" src="https://github.com/user-attachments/assets/86189131-62c5-4f6d-b895-3c3c19785529" />
+
 * **Space Complexity:** `O(1)` extra space, using in-place marking of removed elements.
 
 ---
@@ -118,6 +120,10 @@ public:
 
 ```
 
+- <img width="647" height="479" alt="image" src="https://github.com/user-attachments/assets/4f9ac289-d916-45aa-9c4b-fc3f047f5adc" />
+
+
+
 ---
 
 ## **Key Takeaways**
@@ -127,5 +133,13 @@ public:
 * Greedy approach works here because we always remove the **minimum sum pair**, which is the optimal local choice.
 
 ---
+
+<div align="center">
+    Created by Ankit Dimri  
+    © 2026
+</div>
+
+---
+
 
 
