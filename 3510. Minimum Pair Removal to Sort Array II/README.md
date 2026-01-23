@@ -103,6 +103,9 @@ Thus, the algorithm exactly simulates the required operations in optimal time.
   `O(n log n)`
   Each pair is pushed and popped from the heap a constant number of times.
 
+- <img width="503" height="424" alt="image" src="https://github.com/user-attachments/assets/861a35a6-26f5-4920-b12e-26935a48e4e6" />
+
+
 * **Space Complexity:**
   `O(n)`
   For heap, linked list arrays, and removal tracking.
@@ -176,6 +179,8 @@ public:
 
 ```
 
+- <img width="636" height="455" alt="image" src="https://github.com/user-attachments/assets/7a022a05-d2cc-4fd7-88ce-8ee22776810f" />
+
 ---
 
 ## **Key Takeaways**
@@ -193,3 +198,4 @@ public:
 </div>
 
 ---
+
