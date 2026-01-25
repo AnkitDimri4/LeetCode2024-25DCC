@@ -105,7 +105,7 @@ See `solution.cpp` for the full implementation.
 ---
 
 <div align="center">
-    Created by <b>Your Name</b>  
+    Created by <b>Ankit Dimri</b>  
     © 2026
 </div>
 
